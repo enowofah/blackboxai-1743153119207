@@ -1,0 +1,35 @@
+name: tripmate
+description: A bus reservation app for Cameroon
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.1
+  cloud_firestore: ^4.7.0
+  firebase_messaging: ^14.0.0
+  google_fonts: ^5.0.0
+  lottie: ^2.7.0
+  intl: ^0.18.1
+  flutter_animate: ^4.2.0
+  flutter_svg: ^2.0.7
+  provider: ^6.0.5
+  flutter_local_notifications: ^15.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+    - assets/images/
+    - assets/icons/
